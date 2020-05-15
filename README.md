@@ -4,9 +4,9 @@
 A On process PortFollio using Flutter 
 
 # Preview
+![test image size](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/11.jpeg){:class="img-responsive"}
 
-![] (https://raw.githubusercontent.com/abhijeet1999/portfolio/master/11.jpeg | width=100)
-![Alt text](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/12.jpeg)
+![Alt text](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/12.jpeg)Learn
 
 ## Getting Started
 
