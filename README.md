@@ -5,8 +5,8 @@ A On process PortFollio using Flutter
 
 # Preview
 ![](11.jpeg)
+<img src="https://raw.githubusercontent.com/abhijeet1999/portfolio/master/12.jpeg" width="400" height="790">
 
-![](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/12.jpeg &s=200)
 
 ## Getting Started
 
