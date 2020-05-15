@@ -4,7 +4,8 @@
 A On process PortFollio using Flutter 
 
 # Preview
-![Alt text](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/11.jpeg "Portfolio")
+
+![](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/11.jpeg | width=100)
 ![Alt text](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/12.jpeg)
 
 ## Getting Started
