@@ -6,7 +6,7 @@ A On process PortFollio using Flutter
 # Preview
 ![test image size](11.jpeg){:height="50%" width="50%"}
 
-![Alt text](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/12.jpeg)Learn
+![Alt text](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/12.jpeg&s=200)
 
 ## Getting Started
 
