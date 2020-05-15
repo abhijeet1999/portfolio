@@ -4,7 +4,7 @@
 A On process PortFollio using Flutter 
 
 # Preview
-![test image size](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/11.jpeg){:class="img-responsive"}
+![test image size](11.jpeg){:class="img-responsive"}
 
 ![Alt text](https://raw.githubusercontent.com/abhijeet1999/portfolio/master/12.jpeg)Learn
 
