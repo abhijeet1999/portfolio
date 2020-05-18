@@ -7,18 +7,9 @@ import 'package:flutter_pdfview/flutter_pdfview.dart';
 //import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 
-void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: Home(),
-
-  ));
-  
-}
 
 
-
-  bool isLargeScreen(BuildContext context) {
+bool isLargeScreen(BuildContext context) {
     return MediaQuery.of(context).size.width > 800;
   }
   
