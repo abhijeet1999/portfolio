@@ -27,7 +27,9 @@ dependencies:
   getflutter: ^1.0.11
   flutter_pdfview: ^1.0.0+10
   path_provider: ^1.6.8
+  hexcolor: ^1.0.2
   http: ^0.12.1
+  hover_effect: ^0.6.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -49,6 +51,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
+    - images/112.png
     - images/my.png
     - assets/
 

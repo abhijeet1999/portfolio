@@ -88,6 +88,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.11"
+  hexcolor:
+    dependency: "direct main"
+    description:
+      name: hexcolor
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.2"
+  hover_effect:
+    dependency: "direct main"
+    description:
+      name: hover_effect
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.0"
   http:
     dependency: "direct main"
     description:

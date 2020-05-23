@@ -3,9 +3,10 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_pdfview/flutter_pdfview.dart';
-//import 'package:flutter/services.dart';
-//import 'package:http/http.dart' as http;
+//import 'package:hexcolor/hexcolor.dart';
 import 'package:path_provider/path_provider.dart';
+//import 'package:portfolio/yolo.dart';
+//import 'package:hover_effect/hover_effect.dart';
 
 
 
@@ -57,111 +58,165 @@ class _HomeState extends State<Home> {
   @override
 
   Widget build(BuildContext context) {
-    
+    //const color = const Color(0x063640);
     return Scaffold(
+      
      
-          
+      //backgroundColor:Hexcolor("#063640"),
+      
          
-      body: Column(
+      body:Container(
+        
+
+          decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("images/112.png"),
+            colorFilter: new ColorFilter.mode(Colors.white.withOpacity(0.7), BlendMode.dstATop),
+            
+            fit: BoxFit.cover,
+          ),
+        ),
+            
+          
+          
+     
+        child:Column(
         
          
         children: <Widget>[
+       
         
           Padding(
-            padding: const EdgeInsets.only(top:100.0),
-            child: Text('Abhijeet C',
-            style: TextStyle(fontSize:33),),
+            padding: const EdgeInsets.only(top:70.0),
+            child: Text('ABHIJEET C',
+            style: TextStyle(fontSize:50,color:Colors.white),),
           ),
-          Padding(
-            padding: const EdgeInsets.only(top:30),
-            child: CircleAvatar(
-              radius: 100,
-              backgroundImage: AssetImage('images/my.png',)
-              // NetworkImage('https://raw.githubusercontent.com/abhijeet1999/abhijeet_resume/master/my.jpg',),
-            ),
-          ),
-          SizedBox(height:30),
-          Text('The Growing Developer',
-          style: TextStyle(fontSize:28),
-          ),
-          SizedBox(height:30),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Column(
-              children: <Widget>[
-                Row (
-                  children: <Widget>[
-                    Icon(Icons.mail_outline,size:18 ,),
-                    SizedBox(width:10),
-                    Text('abhijeetcherungottil@gmail.com',
-                    style: TextStyle(fontSize:18),)
-
-
-                ],
-                ),
-                
-                SizedBox(height:10),
-                Row (
-                  children: <Widget>[
-                    Icon(Icons.location_on,size:18 ),
-                    SizedBox(width:10),
-                    Text('Thrivandrum,Kerala',
-                    style: TextStyle(fontSize:18),)
-
-
-                ],
-                ),
-                SizedBox(height:10),
-              
-                Row (
-                  children: <Widget>[
-                    Icon(Icons.home,size:18 ),
-                    SizedBox(width:10),
-                    Text('Full-Time',
-                    style: TextStyle(fontSize:18),)
-
-
-                ],
-                ),
-                SizedBox(height:10),
-                Row (
-                  children: <Widget>[
-                    Icon(Icons.account_circle,size:18 ),
-                    SizedBox(width:10),
-                    Text('Software Developer',
-                    style: TextStyle(fontSize:18),)
-
-
-                ],
-                ),
-                SizedBox(height:10),
-              Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: FlatButton(
-                onPressed: () {
-                  if (assetPDFPath != null){
-                    Navigator.push(context,MaterialPageRoute(builder: (context)=>PdfViewPage(path:assetPDFPath)) );
-                  }
-                },
-                color: Colors.blue,
-                child: Text(
-                  'RESUME',
-                  style: TextStyle(
-                      fontFamily: ('Lato'),
-                      color: Colors.white,
-                      fontSize:
-                      
-                      isLargeScreen(context) ? 12.0 : 10.0,
-                      fontWeight: FontWeight.bold),
-                  softWrap: true,
-                  textAlign: TextAlign.start,
-                ),
+          SizedBox(height:20),
+           Expanded(
+                        child: CircleAvatar(
+                radius: 100,
+                backgroundImage: AssetImage('images/my.png',)
+                // NetworkImage('https://raw.githubusercontent.com/abhijeet1999/abhijeet_resume/master/my.jpg',),
               ),
+           ),
+         
+          SizedBox(height:30),
+        
+          Text('The Growing Developer',
+          style: TextStyle(fontSize:28,color:Colors.white),
+          ),
+            SizedBox(
+              width: 150,
+              height: 40,
+                          child: Divider(
+              color: Colors.teal.shade100,
+          ),
             ),
-            
-            
-            
-              ],
+          
+          Expanded(
+                      child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                children: <Widget>[
+                  Row (
+                    children: <Widget>[
+                      SizedBox(width:10),
+                      Icon(Icons.mail_outline,size:24 ,color:Colors.white,),
+                      SizedBox(width:30),
+                      Text('abhijeetcherungottil@gmail.com',
+                      style: TextStyle(fontSize:20,color:Colors.white))
+
+
+                  ],
+                  ),
+                  
+                  SizedBox(height:10),
+                  Row (
+                    children: <Widget>[
+                      SizedBox(width:10),
+                      Icon(Icons.location_on,size:24,color:Colors.white ),
+                      SizedBox(width:30),
+                      Text('Thrivandrum,Kerala',
+                      style: TextStyle(fontSize:20,color:Colors.white),)
+
+
+                  ],
+                  ),
+                  SizedBox(height:10),
+                
+                  Row (
+                    children: <Widget>[
+                      SizedBox(width:10),
+                      Icon(Icons.home,size:24 ,color:Colors.white),
+                      SizedBox(width:30),
+                      Text('Full-Time',
+                      style: TextStyle(fontSize:20,color:Colors.white))
+
+
+                  ],
+                  ),
+                  SizedBox(height:10),
+                  Row (
+                    children: <Widget>[
+                      SizedBox(width:10),
+                      Icon(Icons.account_circle,size:24 ,color:Colors.white),
+                      SizedBox(width:30),
+                      Text('Software Developer',
+                      style: TextStyle(fontSize:20,color:Colors.white),)
+
+
+                  ],
+                  ),
+                SizedBox(height:10),
+                Expanded(
+                                  child: Padding(
+                  padding: const EdgeInsets.all(6.0),
+                  child: RaisedButton(
+                    splashColor: Colors.grey,
+                    
+                    onPressed: () {
+                      if (assetPDFPath != null){
+                        Navigator.push(context,MaterialPageRoute(builder: (context)=>PdfViewPage(path:assetPDFPath)) );
+                      }
+                    },
+                    color: Colors.blue,
+                    child: Text(
+                      'RESUME',
+                      
+                      style: TextStyle(
+                          fontFamily: ('Lato'),
+                          color: Colors.white,
+                          
+                          fontSize:
+                          
+                          isLargeScreen(context) ? 12.0 : 10.0,
+                          fontWeight: FontWeight.bold),
+                      softWrap: true,
+                      textAlign: TextAlign.start,
+                    ),
+                  ),
+              ),
+                ),
+              //SizedBox(height:10),
+                Expanded(
+                                  child: Padding(
+                  padding: const EdgeInsets.only(left:290.0),
+                  child: FloatingActionButton(
+                    splashColor: Colors.grey,
+                    
+                    backgroundColor: Colors.green,
+                    child: Text("More"),
+             onPressed: (){
+              // Navigator.pop(context);
+              Navigator.pushNamed(context, '/a');
+             }, 
+                  ),
+              ),
+                ),
+              
+              
+                ],
+              ),
             ),
           ),
        
@@ -169,8 +224,9 @@ class _HomeState extends State<Home> {
         ],
         
       ),
-     
       
+     
+      ),
       
     );
   }
@@ -244,3 +300,5 @@ class _State extends State< PdfViewPage > {
     );
   }
 }
+
+
