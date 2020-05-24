@@ -8,7 +8,7 @@ class More extends StatefulWidget {
 class _MoreState extends State<More> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
         title: Text("Second Route"),
       ),
@@ -21,6 +21,5 @@ class _MoreState extends State<More> {
         ),
       ),
     );
-  
   }
 }
