@@ -125,7 +125,7 @@ class _HomeState extends State<Home> {
                                 size: 24, color: Colors.white),
                             SizedBox(width: 30),
                             Text(
-                              'Thrivandrum,Kerala',
+                              'Trivandrum,Kerala',
                               style:
                                   TextStyle(fontSize: 20, color: Colors.white),
                             )
