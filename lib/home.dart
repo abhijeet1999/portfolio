@@ -138,7 +138,7 @@ class _HomeState extends State<Home> {
                             SizedBox(width: 10),
                             Icon(Icons.home, size: 24, color: Colors.white),
                             SizedBox(width: 30),
-                            Text('Full-Time',
+                            Text('linkedin.com/in/abhijeet-b1693b161',
                                 style: TextStyle(
                                     fontSize: 20, color: Colors.white))
                           ],
